@@ -125,7 +125,8 @@ section {
 
 .about-section,
 .favorites-section,
-.projects-section {
+.projects-section,
+.typography-section {
     padding: 3rem 3.4rem;
     border: 1px solid #e5d9d8;
     border-radius: 1rem;
@@ -296,6 +297,20 @@ p {
     text-align: left;
 }
 
+.video-wrap {
+    width: 100%;
+    max-width: 48rem;
+    margin: 0.4rem auto 1.4rem;
+}
+
+.project-video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    background-color: #38262f;
+}
+
 .project-link {
     display: inline-block;
     align-self: flex-start;
@@ -310,10 +325,62 @@ p {
     text-decoration: none;
 }
 
+.project-link,
+.contact-links a {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.project-link:hover,
+.contact-links a:hover {
+    transform: translateY(-0.15rem);
+    box-shadow: 0 0.25rem 0.65rem rgba(56, 38, 47, 0.2);
+}
+
+.project-link:active,
+.contact-links a:active {
+    transform: translateY(0);
+}
+
 .project-link:hover,
 .project-link:focus {
     background-color: #53313d;
     text-decoration: underline;
+}
+
+/* Typography style guide */
+.typography-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.typography-text {
+    flex: 1 1 24rem;
+    min-width: 0;
+    max-width: 65ch;
+}
+
+.typography-figure {
+    flex: 1 1 18rem;
+    min-width: 0;
+    max-width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.typography-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #e5d9d8;
+    border-radius: 0.7rem;
+}
+
+.typography-figure figcaption {
+    margin-top: 0.7rem;
+    color: #635057;
+    font-size: 0.9rem;
 }
 
 /* Contact */
@@ -408,7 +475,8 @@ footer {
 
     .about-section,
     .favorites-section,
-    .projects-section {
+    .projects-section,
+    .typography-section {
         padding: 1.3rem;
     }
 
@@ -453,6 +521,17 @@ footer {
         padding: 1rem;
     }
 
+    .typography-layout {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.5rem;
+    }
+
+    .typography-text,
+    .typography-figure {
+        flex: 1 1 auto;
+    }
+
     .contact-section {
         padding: 2rem 1.2rem;
     }
@@ -464,5 +543,18 @@ footer {
 
     .footer-divider {
         display: block;
+    }
+}
+
+/* Respect visitors who prefer less motion. */
+@media (prefers-reduced-motion: reduce) {
+    .project-link,
+    .contact-links a {
+        transition: none;
+    }
+
+    .project-link:hover,
+    .contact-links a:hover {
+        transform: none;
     }
 }

@@ -6,11 +6,14 @@ This personal website is my final individual project for MMS 171. Over the term,
 
 > “Happily in love, fictionally delusional.”
 
+[Visit my published profile](https://rfmoreno1.github.io/About-Me-Final-Project/)
+
 ## Explore the profile
 
 - **About Me** — my life as a teacher and multimedia arts student.
 - **Things I Love** — a glimpse of my interests and the little joys that keep me inspired.
 - **Passion Projects** — two featured works and an XML archive of my creative projects.
+- **Typography** — my Canva style guide and a reflection on font pairing and visual design.
 - **Contact** — links to reach me through email and Facebook.
 
 ## Featured projects
@@ -19,11 +22,11 @@ This personal website is my final individual project for MMS 171. Over the term,
 
 An educational presentation created on August 28, 2026. I wanted to explain the principles in a way that audiences could easily follow, combining clear information and thoughtful visual design.
 
-[View the presentation in Canva](https://canva.link/8o1uzosjwnfg9px)
+The video is embedded directly in the profile, and the original presentation is also available in [Canva](https://canva.link/8o1uzosjwnfg9px).
 
 ### Whisker & Wonder
 
-A collaborative website for an animal-inspired T-shirt brand that promotes kindness toward stray and rescued animals. I served as the group's main coder, helping transform our shared designs into functional web pages with responsive layouts and clear navigation. This project reminded me how satisfying it is to see a team's ideas take shape through code.
+A collaborative website completed on November 18, 2026, for an animal-inspired T-shirt brand that promotes kindness toward stray and rescued animals. I served as the group's main coder, helping transform our shared designs into functional web pages with responsive layouts and clear navigation. This project reminded me how satisfying it is to see a team's ideas take shape through code.
 
 [Visit Whisker & Wonder](https://rfmoreno1.github.io/Whisker-and-Wonder/)
 
@@ -34,6 +37,8 @@ A collaborative website for an animal-inspired T-shirt brand that promotes kindn
 - Playfair Display for expressive headings and Nunito Sans for comfortable body text, with web-safe fallbacks.
 - A warm cream and muted rose palette, generous spacing, and consistent typography.
 - Descriptive links, image alternative text, keyboard focus indicators, and a skip navigation link.
+- Subtle CSS hover transitions for project and contact buttons, with reduced-motion support.
+- A responsive video player and an illustrated typography style guide.
 - Well-formed XML to document the project archive.
 
 ## Repository files
@@ -43,6 +48,8 @@ A collaborative website for an animal-inspired T-shirt brand that promotes kindn
 | `index.html` | Main profile page |
 | `style.css` | Styles, typography, and responsive layout |
 | `Profile_Picture.png` | Profile photograph |
+| `12_Principles_of_Multimedia_Design.mp4` | Educational video presentation |
+| `Typography style guide flyer.png` | Module 7 Canva typography style guide |
 | `projects.xml` | Structured project archive |
 | `README.md` | Project overview and documentation |
 
