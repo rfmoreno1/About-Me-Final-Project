@@ -27,7 +27,7 @@ The video is embedded directly in the profile, and the original presentation is 
 
 A collaborative website completed on November 18, 2026, for an animal-inspired T-shirt brand that promotes kindness toward stray and rescued animals. As group leader and main coder, I designed the homepage, privacy policy page, and mobile layouts with accessibility in mind, and guided my groupmates as we built the site together. It was my first time truly exploring coding, so seeing our shared ideas become a functioning website made me especially proud.
 
-A compact homepage preview is embedded in my portfolio beneath the project description. Visitors can explore the entire website using the project link.
+A screenshot of the homepage is displayed in my portfolio beneath the project description. Visitors can explore the entire website using the project link.
 
 [Visit Whisker & Wonder](https://rfmoreno1.github.io/Whisker-and-Wonder/)
 
@@ -39,7 +39,7 @@ A compact homepage preview is embedded in my portfolio beneath the project descr
 - A warm cream and muted rose palette, generous spacing, and consistent typography.
 - Descriptive links, image alternative text, keyboard focus indicators, and a skip navigation link.
 - Subtle CSS hover transitions for navigation, project, and contact links, with reduced-motion support.
-- Matching, responsive media previews: the embedded multimedia video and the Whisker & Wonder homepage.
+- Matching, responsive media previews: the embedded multimedia video and the Whisker & Wonder homepage screenshot, with italicized captions.
 - [Canva typography style guide](Typography%20style%20guide%20flyer.png) retained as a repository reference for Module 7.
 - Well-formed XML to document the project archive.
 
@@ -51,6 +51,7 @@ A compact homepage preview is embedded in my portfolio beneath the project descr
 | `style.css` | Styles, typography, and responsive layout |
 | `Profile_Picture.png` | Profile photograph |
 | `12_Principles_of_Multimedia_Design.mp4` | Educational video presentation |
+| `Whisker_and_Wonder_Homepage.png` | Homepage screenshot for the collaborative project |
 | `Typography style guide flyer.png` | Module 7 Canva typography style guide (repository reference) |
 | `projects.xml` | Structured project archive |
 | `README.md` | Project overview and documentation |
