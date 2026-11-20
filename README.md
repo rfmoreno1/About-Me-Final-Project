@@ -38,6 +38,8 @@ A screenshot of the homepage is displayed in my portfolio beneath the project de
 - Playfair Display for expressive headings and Nunito Sans for comfortable body text, with web-safe fallbacks.
 - A warm cream and muted rose palette, generous spacing, and consistent typography.
 - Descriptive links, image alternative text, keyboard focus indicators, and a skip navigation link.
+- Sticky section navigation, larger touch-friendly links, smooth anchor scrolling (with reduced-motion support), and a back-to-top link.
+- Direct video playback and full-size homepage preview links accompany the featured project buttons.
 - Subtle CSS hover transitions for navigation, project, and contact links, with reduced-motion support.
 - Matching, responsive media previews: the embedded multimedia video and the Whisker & Wonder homepage screenshot, with italicized captions.
 - [Canva typography style guide](Typography%20style%20guide%20flyer.png) retained as a repository reference for Module 7.
@@ -60,7 +62,7 @@ A screenshot of the homepage is displayed in my portfolio beneath the project de
 
 ## Final validation and quality checks
 
-Checked on **November 20, 2026**, using the published GitHub Pages website.
+Original published-page validation screenshots were captured on **November 20, 2026**. The final navigation refinement keeps the same content and adds accessibility and usability enhancements; the recheck links below validate the current published version.
 
 | Check | Result | Evidence |
 | --- | --- | --- |

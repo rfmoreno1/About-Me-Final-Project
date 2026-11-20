@@ -7,11 +7,11 @@
     <title>Rachel Anne Moreno | My Profile</title>
     <!-- Free Google Fonts: Playfair Display for headings, Nunito Sans for text -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&amp;family=Playfair+Display:wght@400;600;700&amp;display=swap">
-    <link rel="stylesheet" href="style.css?v=20261120-5">
+    <link rel="stylesheet" href="style.css?v=20261120-6">
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
-    <div class="page">
+    <div class="page" id="home">
         <nav class="top-nav" aria-label="Main navigation">
             <a class="monogram" href="#home" aria-label="Back to top">RM<span>.</span></a>
             <div class="nav-links">
@@ -22,13 +22,13 @@
             </div>
         </nav>
 
-        <header class="site-header" id="home">
+        <header class="site-header">
             <h1 class="profile-name">Rachel Anne Moreno</h1>
             <p class="tagline"><em>“Happily in love, fictionally delusional.”</em></p>
             <div class="hero-rule" aria-hidden="true"><span>✦</span></div>
         </header>
 
-        <main id="main-content">
+        <main id="main-content" tabindex="-1">
             <section class="about-section" id="about" aria-labelledby="about-heading">
                 <div class="section-heading">
                     <p class="section-number">01 / THE INTRODUCTION</p>
@@ -112,7 +112,10 @@
                         </video>
                         <figcaption>Multimedia video presentation</figcaption>
                     </figure>
-                    <a class="project-link" href="https://canva.link/8o1uzosjwnfg9px" target="_blank" rel="noopener noreferrer">View multimedia presentation in Canva <span aria-hidden="true">↗</span></a>
+                    <div class="project-actions">
+                        <a class="project-link" href="https://canva.link/8o1uzosjwnfg9px" target="_blank" rel="noopener noreferrer">View presentation in Canva <span aria-hidden="true">↗</span><span class="visually-hidden"> (opens in a new tab)</span></a>
+                        <a class="secondary-link" href="12_Principles_of_Multimedia_Design.mp4" target="_blank" rel="noopener">Open video directly<span class="visually-hidden"> (opens in a new tab)</span></a>
+                    </div>
                 </article>
                 <article class="project-feature">
                     <div class="project-topline">
@@ -130,7 +133,10 @@
                         </div>
                         <figcaption>Preview of the Whisker &amp; Wonder homepage</figcaption>
                     </figure>
-                    <a class="project-link" href="https://rfmoreno1.github.io/Whisker-and-Wonder/" target="_blank" rel="noopener noreferrer">Explore Whisker &amp; Wonder <span aria-hidden="true">↗</span></a>
+                    <div class="project-actions">
+                        <a class="project-link" href="https://rfmoreno1.github.io/Whisker-and-Wonder/" target="_blank" rel="noopener noreferrer">Explore Whisker &amp; Wonder <span aria-hidden="true">↗</span><span class="visually-hidden"> (opens in a new tab)</span></a>
+                        <a class="secondary-link" href="Whisker_and_Wonder_Homepage.png" target="_blank" rel="noopener">Open full-size homepage preview<span class="visually-hidden"> (opens in a new tab)</span></a>
+                    </div>
                 </article>
                 </div>
                 <p class="project-archive">Curious about my other creative work? <a href="projects.xml">View my project archive (XML)</a>.</p>
@@ -142,8 +148,9 @@
                 <p>Want to say hello? Feel free to reach out through my email or Facebook!</p>
                 <div class="contact-links">
                     <a href="mailto:rfmoreno1@up.edu.ph">Email me <span aria-hidden="true">↗</span></a>
-                    <a href="https://www.facebook.com/efem.rae.0122" target="_blank" rel="noopener noreferrer">Rachel Anne on Facebook <span aria-hidden="true">↗</span></a>
+                    <a href="https://www.facebook.com/efem.rae.0122" target="_blank" rel="noopener noreferrer">Rachel Anne on Facebook <span aria-hidden="true">↗</span><span class="visually-hidden"> (opens in a new tab)</span></a>
                 </div>
+                <a class="back-to-top" href="#home">Back to top <span aria-hidden="true">↑</span></a>
             </section>
         </main>
 
