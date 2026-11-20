@@ -54,7 +54,22 @@ A screenshot of the homepage is displayed in my portfolio beneath the project de
 | `Whisker_and_Wonder_Homepage.png` | Homepage screenshot for the collaborative project |
 | `Typography style guide flyer.png` | Module 7 Canva typography style guide (repository reference) |
 | `projects.xml` | Structured project archive |
+| `HTML Validation.png` | Screenshot of the successful HTML validation |
+| `CSS Validation.png` | Screenshot of the successful CSS validation |
 | `README.md` | Project overview and documentation |
+
+## Final validation and quality checks
+
+Checked on **November 20, 2026**, using the published GitHub Pages website.
+
+| Check | Result | Evidence |
+| --- | --- | --- |
+| HTML — W3C Nu HTML Checker | No errors or warnings | [Screenshot](HTML%20Validation.png) · [Recheck HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Frfmoreno1.github.io%2FAbout-Me-Final-Project%2F&level=warning) |
+| CSS — W3C CSS Validator | No errors (CSS level 3 + SVG) | [Screenshot](CSS%20Validation.png) · [Recheck CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frfmoreno1.github.io%2FAbout-Me-Final-Project%2Fstyle.css&profile=css3svg) |
+| XML project archive | Well-formed; four entries with titles, descriptions, and dates | [Project archive](projects.xml) |
+| GitHub Pages | Public website opens without a login | [Published profile](https://rfmoreno1.github.io/About-Me-Final-Project/) |
+
+The published profile includes functional section navigation, native video controls, both project previews, descriptive alternative text, keyboard focus indicators, and a responsive layout.
 
 ## Opening the website
 
