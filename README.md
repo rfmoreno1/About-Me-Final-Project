@@ -26,7 +26,7 @@ The video is embedded directly in the profile, and the original presentation is 
 
 ### Whisker & Wonder
 
-A collaborative website completed on November 18, 2026, for an animal-inspired T-shirt brand that promotes kindness toward stray and rescued animals. I served as the group's main coder, helping transform our shared designs into functional web pages with responsive layouts and clear navigation. This project reminded me how satisfying it is to see a team's ideas take shape through code.
+A collaborative website completed on November 18, 2026, for an animal-inspired T-shirt brand that promotes kindness toward stray and rescued animals. As group leader and main coder, I designed the homepage, privacy policy page, and mobile layouts with accessibility in mind, and guided my groupmates as we built the site together. It was my first time truly exploring coding, so seeing our shared ideas become a functioning website made me especially proud.
 
 [Visit Whisker & Wonder](https://rfmoreno1.github.io/Whisker-and-Wonder/)
 
