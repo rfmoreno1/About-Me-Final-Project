@@ -1,0 +1,468 @@
+/* MMS 171 - Module 7: Google Fonts and Responsive Typography */
+/* Headings: Playfair Display; body text: Nunito Sans. Web-safe fallbacks included. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f8f4f1;
+    color: #34272c;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.skip-link {
+    position: absolute;
+    top: -5rem;
+    left: 1rem;
+    padding: 0.7rem 1rem;
+    background-color: #713b51;
+    color: #ffffff;
+}
+
+.skip-link:focus {
+    top: 1rem;
+}
+
+a:focus {
+    outline: 3px solid #87425e;
+    outline-offset: 4px;
+}
+
+.contact-links a:focus {
+    outline-color: #ffffff;
+}
+
+/* Use most of the desktop screen without touching the edges. */
+.page {
+    width: 94%;
+    max-width: 96rem;
+    margin: 0 auto;
+}
+
+/* Navigation */
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid #dbcbd0;
+}
+
+.monogram {
+    color: #53313d;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.monogram span,
+.period {
+    color: #b16b83;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+
+.nav-links a {
+    color: #624b52;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    text-decoration: underline;
+}
+
+/* Heading and tagline */
+.site-header {
+    padding: 3.6rem 0 3rem;
+    text-align: center;
+}
+
+.profile-name,
+h2,
+h3 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.profile-name {
+    margin: 0;
+    color: #38262f;
+    font-size: 4.4rem;
+    font-style: normal;
+}
+
+.tagline {
+    margin: 0.9rem 0 0;
+    color: #634d55;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+}
+
+.hero-rule {
+    margin: 1.5rem auto 0;
+    color: #b16b83;
+    font-size: 1.2rem;
+}
+
+/* Content sections and box-model spacing */
+section {
+    margin-bottom: 2rem;
+}
+
+.about-section,
+.favorites-section,
+.projects-section {
+    padding: 3rem 3.4rem;
+    border: 1px solid #e5d9d8;
+    border-radius: 1rem;
+    background-color: #fffdfb;
+}
+
+.section-heading {
+    margin-bottom: 1.8rem;
+}
+
+.section-number,
+.project-type {
+    margin: 0 0 0.55rem;
+    color: #87425e;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0;
+    color: #38262f;
+    font-size: 2.65rem;
+}
+
+h3 {
+    margin: 0 0 1rem;
+    color: #442d37;
+    font-size: 2rem;
+}
+
+.section-intro {
+    margin: 0.8rem 0 0;
+    color: #635057;
+    font-size: 1rem;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+/* The portrait stays beside the biography on large screens. */
+.bio-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.bio-text {
+    flex: 1 1 34rem;
+    min-width: 0;
+    max-width: 76ch;
+}
+
+.bio-text p {
+    font-size: 1.05rem;
+    text-align: justify;
+}
+
+.bio-photo {
+    flex: 1 1 17rem;
+    max-width: 27rem;
+    min-width: 0;
+    margin: 0 auto;
+}
+
+.photo-frame {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1.2rem 1.2rem 0;
+    border: 1px solid #e5c6ce;
+    border-radius: 12rem 12rem 0.8rem 0.8rem;
+    background-color: #f0dce2;
+}
+
+.photo-frame img {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+}
+
+/* Things I Love */
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.favorites-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    flex: 1 1 22rem;
+    min-width: 0;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid #eadde0;
+    border-radius: 0.7rem;
+    background-color: #faf2f3;
+    font-size: 1rem;
+}
+
+.list-count {
+    color: #904e66;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1.14rem;
+    font-style: italic;
+}
+
+.list-flower {
+    margin-left: auto;
+    color: #b9798e;
+}
+
+/* Featured projects */
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+}
+
+.project-feature {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 26rem;
+    min-width: 0;
+    padding: 2.1rem;
+    border: 1px solid #e4d2d7;
+    border-radius: 0.8rem;
+    background-color: #f9f1f2;
+}
+
+.project-role {
+    color: #713b51;
+    font-weight: bold;
+}
+
+.project-archive {
+    margin: 1.5rem 0 0;
+    color: #635057;
+}
+
+.project-archive a {
+    color: #713b51;
+    font-weight: bold;
+}
+
+.project-topline {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.project-date {
+    color: #70555d;
+    font-size: 0.9rem;
+}
+
+.project-feature > p {
+    max-width: 82ch;
+    text-align: left;
+}
+
+.project-link {
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid #713b51;
+    border-radius: 0.5rem;
+    background-color: #713b51;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-link:hover,
+.project-link:focus {
+    background-color: #53313d;
+    text-decoration: underline;
+}
+
+/* Contact */
+.contact-section {
+    padding: 3rem;
+    border: 1px solid #62364a;
+    border-radius: 1rem;
+    background-color: #61364a;
+    color: #fff8f9;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #ffffff;
+}
+
+.contact-section .section-number,
+.contact-section .period {
+    color: #f3c6d3;
+}
+
+.contact-section > p:not(.section-number) {
+    margin: 1rem 0 1.6rem;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+}
+
+.contact-links a {
+    padding: 0.75rem 1.1rem;
+    border: 1px solid #f1d7df;
+    border-radius: 0.5rem;
+    background-color: #fff6f8;
+    color: #4a2837;
+    font-size: 0.94rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-links a:hover,
+.contact-links a:focus {
+    background-color: #f3c6d3;
+    text-decoration: underline;
+}
+
+footer {
+    padding: 0.5rem 1rem 2rem;
+    color: #735963;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.footer-divider {
+    margin: 0 0.4rem;
+}
+
+/* One mobile media query as required in the Week 6 activity. */
+@media (max-width: 600px) {
+    .page {
+        width: 92%;
+    }
+
+    .top-nav {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .nav-links {
+        justify-content: center;
+        gap: 0.6rem 1rem;
+    }
+
+    .nav-links a {
+        font-size: 0.85rem;
+    }
+
+    .site-header {
+        padding: 2.5rem 0 2rem;
+    }
+
+    .profile-name {
+        font-size: 2.35rem;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+
+    .about-section,
+    .favorites-section,
+    .projects-section {
+        padding: 1.3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .bio-layout {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        gap: 1.3rem;
+    }
+
+    .bio-text,
+    .bio-photo {
+        flex: 1 1 auto;
+    }
+
+    .bio-photo {
+        width: 100%;
+        max-width: 16rem;
+    }
+
+    .bio-text p,
+    .project-feature > p {
+        text-align: left;
+    }
+
+    .favorites-list {
+        flex-direction: column;
+    }
+
+    .favorites-list li {
+        flex: 1 1 auto;
+    }
+
+    .project-feature {
+        padding: 1rem;
+    }
+
+    .contact-section {
+        padding: 2rem 1.2rem;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer-divider {
+        display: block;
+    }
+}

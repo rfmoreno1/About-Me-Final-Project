@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+    <project>
+        <title>12 Principles of Multimedia Design</title>
+        <description>
+            I've always enjoyed making lessons easier to follow, so I had fun
+            putting this presentation together. Instead of just listing the
+            principles, I wanted to show why they matter and how they can make
+            learning materials clearer and more engaging.
+        </description>
+        <date>2026-08-28</date>
+    </project>
+
+    <project>
+        <title>Google Privacy Policy Infographic</title>
+        <description>
+            Privacy policies can feel like a lot to take in, especially when
+            they're packed with lengthy explanations. With this infographic,
+            I tried to make the important points easier to spot and understand,
+            because information about our personal data shouldn't feel so hard
+            to read.
+        </description>
+        <date>2026-10-15</date>
+    </project>
+
+    <project>
+        <title>Four Waves of Feminism</title>
+        <description>
+            What interested me most while making this video was seeing how
+            women's concerns and demands changed from one wave to the next.
+            Rather than treating them as separate moments in history, I wanted
+            to connect the stories and help viewers see how earlier struggles
+            shaped the conversations we still have today.
+        </description>
+        <date>2026-07-22</date>
+    </project>
+    <project>
+        <title>Whisker &amp; Wonder</title>
+        <description>
+            Our group created a website for an animal-inspired T-shirt brand
+            that promotes kindness toward stray and rescued animals. As the main
+            coder, I turned our collaborative design into a responsive website
+            and helped make the navigation and pages work together.
+        </description>
+        <date>2026-11</date>
+    </project>
+</projects>
