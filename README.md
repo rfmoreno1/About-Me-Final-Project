@@ -13,7 +13,6 @@ This personal website is my final individual project for MMS 171. Over the term,
 - **About Me** — my life as a teacher and multimedia arts student.
 - **Things I Love** — a glimpse of my interests and the little joys that keep me inspired.
 - **Passion Projects** — two featured works and an XML archive of my creative projects.
-- **Typography** — my Canva style guide and a reflection on font pairing and visual design.
 - **Contact** — links to reach me through email and Facebook.
 
 ## Featured projects
@@ -37,8 +36,9 @@ A collaborative website completed on November 18, 2026, for an animal-inspired T
 - Playfair Display for expressive headings and Nunito Sans for comfortable body text, with web-safe fallbacks.
 - A warm cream and muted rose palette, generous spacing, and consistent typography.
 - Descriptive links, image alternative text, keyboard focus indicators, and a skip navigation link.
-- Subtle CSS hover transitions for project and contact buttons, with reduced-motion support.
-- A responsive video player and an illustrated typography style guide.
+- Subtle CSS hover transitions for navigation, project, and contact links, with reduced-motion support.
+- A compact, responsive video player that stays within its project card.
+- [Canva typography style guide](Typography%20style%20guide%20flyer.png) retained as a repository reference for Module 7.
 - Well-formed XML to document the project archive.
 
 ## Repository files
@@ -49,7 +49,7 @@ A collaborative website completed on November 18, 2026, for an animal-inspired T
 | `style.css` | Styles, typography, and responsive layout |
 | `Profile_Picture.png` | Profile photograph |
 | `12_Principles_of_Multimedia_Design.mp4` | Educational video presentation |
-| `Typography style guide flyer.png` | Module 7 Canva typography style guide |
+| `Typography style guide flyer.png` | Module 7 Canva typography style guide (repository reference) |
 | `projects.xml` | Structured project archive |
 | `README.md` | Project overview and documentation |
 
